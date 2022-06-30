@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    color: grey;
+}
+
+.planets{
+    display: grid;
+    margin: auto;
+    max-width: 1200px;
+    gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.Earth{
+    color:gray;
+}
+
+.Econt{
+    font-weight:700;
+}
+
+.Mec{
+    color: grey;
+}
+
+img{
+    transition: all .2s ease-in-out; 
+}
+img:hover { 
+    
+    transform: scale(1.2); 
+}
+
+
